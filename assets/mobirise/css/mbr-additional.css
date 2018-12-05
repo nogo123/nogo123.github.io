@@ -1,5 +1,8 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
+
 #msg-box3-8 .mbr-header .mbr-header__text {
   text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 #msg-box3-8 .mbr-header .mbr-header__subtext {
   text-align: center;
@@ -161,4 +164,33 @@
 }
 #footer1-r P {
   color: #c1c1c1;
+}
+#dropdown-menu-10 .hide-buttons [data-button] {
+  display: none !important;
+}
+#dropdown-menu-10 .navbar-brand a {
+  font-size: 32px;
+}
+#dropdown-menu-10 .nav .link,
+#dropdown-menu-10 .dropdown-item {
+  font-size: 1.2em;
+  color: #ffffff;
+}
+#dropdown-menu-10 .navbar,
+#dropdown-menu-10 .dropdown-menu {
+  background: #000000;
+}
+#dropdown-menu-10 .dropdown-menu .dropdown-toggle[aria-expanded="true"],
+#dropdown-menu-10 .dropdown-menu a:hover,
+#dropdown-menu-10 .dropdown-menu a:focus {
+  background: #000000;
+}
+#dropdown-menu-10 .navbar-toggler {
+  color: #ffffff;
+}
+#footer1-11 P {
+  color: #c1c1c1;
+}
+#content1-13 P {
+  color: #000000;
 }

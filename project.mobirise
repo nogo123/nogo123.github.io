@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-12-03_1337",
-    "currentPage": "index.html",
+    "currentPage": "page5.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -13,7 +13,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.8.1",
     "siteFonts": [],
-    "uniqCompNum": 32,
+    "uniqCompNum": 42,
     "versionPublish": "4.8.1",
     "screenshot": "screenshot.png"
   },
@@ -59,7 +59,9 @@
         {
           "_styles": {
             ".mbr-header .mbr-header__text": {
-              "text-align": "center"
+              "text-align": "center",
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
             },
             ".mbr-header .mbr-header__subtext": {
               "text-align": "center"
@@ -204,7 +206,7 @@
           },
           "title": "ALCHOL VERSLAVING",
           "meta": "By John Smith posted July 30, 2015",
-          "text": "<p>Bekijk de video van NO GO waarin verteld wordt over een alchol verslaving.</p>",
+          "text": "<p>Bekijk deze video over alcohol verslaving.</p>",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>",
           "_tags": [
             "Theme"
@@ -427,6 +429,14 @@
           }
         },
         {
+          "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com/mobirise-free-mac.zip\" data-toolbar=\"-mbrBtnMove\">DOE DE TEST!</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-x"
+        },
+        {
           "_params": {
             "inverse": false,
             "paddingTop": 3,
@@ -457,7 +467,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Afkicken",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -592,7 +602,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Oorzaken",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -727,7 +737,7 @@
       "settings": {
         "meta_descr": "Web Builder Description",
         "title": "Contact",
-        "order": 4
+        "order": 5
       },
       "components": [
         {
@@ -895,6 +905,149 @@
             }
           },
           "_anchor": "footer1-r"
+        }
+      ]
+    },
+    "page5.html": {
+      "settings": {
+        "meta_descr": "Site Generator Description",
+        "title": "Test jezelf",
+        "order": 2
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {
+              "font-size": "32px"
+            },
+            ".nav .link, .dropdown-item": {
+              "font-size": "1.2em",
+              "color": "#ffffff"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#000000"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            }
+          },
+          "_params": {
+            "logo": false,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "transparent": false,
+            "bgColor": "#000000",
+            "fontSize": "1.2",
+            "fontName": {},
+            "fontColor": "#ffffff"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">HULP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">Wanneer ben je verslaafd?</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Oorzaken</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">Afkicken</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-default btn-default-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "images/logo.png",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            }
+          },
+          "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">...NO GO</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-10"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#000000",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2018 ...NO GO |&nbsp;<a class=\"mbr-footer__link text-gray\" href=\"index.html\">Terms of Use</a>  | <a class=\"mbr-footer__link text-gray\" href=\"index.html\">Privacy Policy</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "color": "#c1c1c1"
+            }
+          },
+          "_anchor": "footer1-11"
+        },
+        {
+          "_params": {
+            "showMeta": false
+          },
+          "title": "TEST JE ZELF!",
+          "meta": "By John Smith posted July 30, 2015",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-12"
+        },
+        {
+          "text": "<p><b>Hoe vaak drinkt u gemiddeld per week?</b></p><p>a.\tMinder dan 1x per week.</p><p>b.\t1tot 3x per week.</p><p>c.\t Elke dag</p><p><br></p><p><b>Heeft u alcohol nodig om de dag door te komen?</b></p><p>a.\tNee, totaal niet.</p><p>b.\tLigt eraan hoe de dag verloopt.</p><p>c.\tIk kan niet zonder.</p><p><br></p><p><b>Besteed u een grote hoeveelheid van uw geld uit aan&nbsp;</b></p><p><b>alcohol?</b></p><p>a.\tNee, totaal niet</p><p>b.\tValt wel mee</p><p>c.\tIk heb aan het einde van de maand moeite om alles te&nbsp;</p><p>&nbsp; &nbsp; betalen.</p><p><br></p><p><b>Vind u drank een aantrekkelijke manier om dingen te&nbsp;</b></p><p><b>ontvluchten?</b></p><p>a.\tNee, dat is niet de oplossing.</p><p>b.\tSoms wel als het echt nodig is.</p><p>c.\tHeel erg aantrekkelijk.</p><p><br></p><p><b>Zou u hulp willen zoeken als dat nodig zou zijn?</b></p><p>a.\tNee, hier hoeft niemand zich mee te bemoeien.</p><p>b.\tMisschien als ik de juiste hulp krijg.</p><p>c.\tJa, ik wil hier vanaf.</p><p><br></p><p><b>Hoe lang heb je al last van deze verslaving?&nbsp;</b></p><p>A.\t3  maanden</p><p>B.\tEen half jaar&nbsp;</p><p>C.\tMeer dan een jaar&nbsp;</p><p><br></p><p><b>Hoe is je verslaving begonnen?</b></p><p>A.\tgroepsdruk</p><p>B.\tStiekem gedronken</p><p>C.\tErmee opgegroeid&nbsp;</p><p><br></p><p><b>Wat vindt je zo lekker aan alcohol?</b></p><p>A.\tDe smaak</p><p>B.\tHet gevoel&nbsp;</p><p>C.\tDe geur</p><p><br></p><p><b>Drinken er veel mensen uit jou omgeving?</b></p><p>A.\tNee bijna niemand</p><p>B.\t2 tot 8 mensen&nbsp;</p><p>C.\tIedereen&nbsp;</p><p><br></p><p><b>Als je niet drinkt in een periode van 24 uur heb je dan&nbsp;</b></p><p><b>last van afkickverschijnselen?</b></p><p>A.\tNiet echt</p><p>B.\tSoms een beetje&nbsp;</p><p>C.\tAltijd&nbsp;</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_styles": {
+            "P": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "content1-13"
+        },
+        {
+          "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com/mobirise-free-mac.zip\" data-toolbar=\"-mbrBtnMove\">VERZENDEN!</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-14"
+        },
+        {
+          "_params": {
+            "inverse": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5,
+            "counters": true,
+            "facebook": true,
+            "google": true,
+            "twitter": true
+          },
+          "text": "SHARE THIS PAGE!",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons1",
+          "_anchor": "social-buttons1-15"
         }
       ]
     }
